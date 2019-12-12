@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic) NSInteger initialPage;
 @property(nonatomic) NSInteger currentIndex;
 @property(nonatomic) NSInteger pageMargin;
+@property(nonatomic) UIColor *currentPageIndicatorTintColor;
+@property(nonatomic) UIColor *pageIndicatorTintColor;
 @property(nonatomic, readonly) BOOL scrollEnabled;
 @property(nonatomic, readonly) BOOL showPageIndicator;
 @property(nonatomic, readonly) UIScrollViewKeyboardDismissMode dismissKeyboard;

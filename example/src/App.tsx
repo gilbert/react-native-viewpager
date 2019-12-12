@@ -143,6 +143,8 @@ export default class ViewPagerExample extends React.Component<{}, State> {
           transitionStyle="scroll"
           overScrollMode={overScrollMode}
           showPageIndicator={dotsVisible}
+          currentPageIndicatorTintColor={'#0000FF'}
+          pageIndicatorTintColor={'#FF0000'}
           ref={this.viewPager}
         >
           {pages.map((p) => this.renderPage(p))}
